@@ -1,5 +1,6 @@
 from googleapiclient.discovery import build
 import json
+from mongo_db import get_data
 
 file = "data.json"
 
@@ -10,7 +11,7 @@ class get_raw_youtube_data():
         self.api_service_name = "youtube"
         self.api_version = "v3"
         self.api_key = "AIzaSyDRR8QBp6QT44WjjOdHwu9l8sK-x0srM2w" # put youtbe_api key here
-        self.amt =35  # 50
+        self.amt = 35  # 50
         self.playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
 
     def send_request(self):
@@ -21,6 +22,7 @@ class get_raw_youtube_data():
 
     def get_update(self):
         get_raw_youtube_data.getplaylist()
+        get_sv_data = get_data.pull_data_from_db()
 
         with open(file, "r") as read:
             data = json.load(read)
@@ -31,11 +33,18 @@ class get_raw_youtube_data():
             for x in range(0, len(items)):
                 song_title = items[x]["snippet"]["title"]
                 channel = items[x]["snippet"]["videoOwnerChannelTitle"]
-                vid = (song_title, channel)
+                vid = (channel, song_title)
                 seen[cnt + 1] = vid
             self.amt = cnt # find the difference to tell user how many new vidsoes were there
 
+            """
+            we have scaned the database andwe have the pull request from the client youtube
 
+            im thinking about adding a while loop and tracking only the difference between what
+            from the youtube api request vs the mongodb
+            """
+
+            
     def getplaylist(self):
         my_youtube = get_raw_youtube_data.send_request()
 
