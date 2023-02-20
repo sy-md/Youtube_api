@@ -1,59 +1,71 @@
 from googleapiclient.discovery import build
-import json
-from mongo_db import get_data
+import json, os
+from mongo_db import pull_data_from_db
+from pymongo import MongoClient
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
 
 file = "data.json"
 
+api_service_name = "youtube"
+api_version = "v3"
+api_key = "AIzaSyDRR8QBp6QT44WjjOdHwu9l8sK-x0srM2w" # put youtbe_api key here
+amt = 35  # 50
+playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
+psw = os.environ.get("MONGODB_PWD")
+con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
+cli = MongoClient(con_str)
+mydb = cli["youtube"]
+collection = mydb["average_channels"] # get/make a collection in the db
 
 class get_raw_youtube_data():
 
-    def __init__(self):
-        self.api_service_name = "youtube"
-        self.api_version = "v3"
-        self.api_key = "AIzaSyDRR8QBp6QT44WjjOdHwu9l8sK-x0srM2w" # put youtbe_api key here
-        self.amt = 35  # 50
-        self.playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
-
-    def send_request(self):
-        youtube = build(  # connection to youtube api
-           self.api_service_name, self.api_version, eveloperKey=self.api_key
+    def send_request():
+        youtube = build(
+           api_service_name, api_version, developerKey=api_key
         )
         return youtube
 
-    def get_update(self):
-        get_raw_youtube_data.getplaylist()
-        get_sv_data = get_data.pull_data_from_db()
+    def get_update():
+        get_raw_youtube_data.getplaylist() # get the api platlist
+        get_sv_data = pull_data_from_db(mydb) # get datbase playlist
 
         with open(file, "r") as read:
             data = json.load(read)
 
-            items, seen = data["items"], {}
-
-            cnt = 0
-            for x in range(0, len(items)):
-                song_title = items[x]["snippet"]["title"]
-                channel = items[x]["snippet"]["videoOwnerChannelTitle"]
-                vid = (channel, song_title)
-                seen[cnt + 1] = vid
-            self.amt = cnt # find the difference to tell user how many new vidsoes were there
-
-            """
-            we have scaned the database andwe have the pull request from the client youtube
-
-            im thinking about adding a while loop and tracking only the difference between what
-            from the youtube api request vs the mongodb
-            """
-
+            items = data["items"] # updated
+            seen = []
+            tmp = []
             
-    def getplaylist(self):
-        my_youtube = get_raw_youtube_data.send_request()
+            cnt = 0
+            cntt = 0
 
-        request = my_youtube.playlistItems().list(
-            part="snippet,id",
-            maxResults=self.amt,
-            playlistId=self.playlist,
-        )
-        response = request.execute()
+            for x in get_sv_data:
+                seen.append(x["video"])
+ 
+            while cntt < len(items):
+                channel = items[cntt]["snippet"]["videoOwnerChannelTitle"]
+                song_title = items[cntt]["snippet"]["title"]
+                if song_title not in seen:
+                    vid = {channel: song_title}
+                    tmp.append(vid)
+                cntt += 1
+            print("found {} new song".format(len(tmp)))
+            for x in tmp:
+                print(x, end="\n")
 
-        with open(file, "w") as send:
-            json.dump(response, send, indent=3)
+
+
+    def getplaylist():
+        pass
+       #my_youtube = get_raw_youtube_data.send_request()
+
+       #request = my_youtube.playlistItems().list(
+       #    part="snippet,id",
+       #    maxResults=amt,
+       #    playlistId=playlist,
+       #)
+       #response = request.execute()
+
+       #with open(file, "w") as send:
+       #    json.dump(response, send, indent=3)
