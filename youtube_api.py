@@ -1,7 +1,8 @@
 from googleapiclient.discovery import build
 import json, os
-from mongo_db import pull_data_from_db
+from mongo_db import pull_data_from_db, push_new_videos
 from pymongo import MongoClient
+from cleaning_data import clean_for_percetage
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
@@ -9,16 +10,17 @@ file = "data.json"
 
 api_service_name = "youtube"
 api_version = "v3"
-api_key = "AIzaSyDRR8QBp6QT44WjjOdHwu9l8sK-x0srM2w" # put youtbe_api key here
-amt = 35  # 50
+api_key = ""  # put youtbe_api key here
 playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
 psw = os.environ.get("MONGODB_PWD")
 con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
 cli = MongoClient(con_str)
 mydb = cli["youtube"]
-collection = mydb["average_channels"] # get/make a collection in the db
+collection = mydb["average_channels"]  # get/make a collection in the db
+
 
 class get_raw_youtube_data():
+    amt= 0  # 50
 
     def send_request():
         youtube = build(
@@ -27,22 +29,17 @@ class get_raw_youtube_data():
         return youtube
 
     def get_update():
-        get_raw_youtube_data.getplaylist() # get the api platlist
         get_sv_data = pull_data_from_db(mydb) # get datbase playlist
 
-        with open(file, "r") as read:
+        with open(file, "r") as read:  # opeing the youtube api json / data.json
             data = json.load(read)
 
-            items = data["items"] # updated
-            seen = []
+            items = data["items"] # updated videos from youtube api
+            seen = [get_sv_data] 
             tmp = []
-            
-            cnt = 0
             cntt = 0
+            vid_amt = 1
 
-            for x in get_sv_data:
-                seen.append(x["video"])
- 
             while cntt < len(items):
                 channel = items[cntt]["snippet"]["videoOwnerChannelTitle"]
                 song_title = items[cntt]["snippet"]["title"]
@@ -50,22 +47,36 @@ class get_raw_youtube_data():
                     vid = {channel: song_title}
                     tmp.append(vid)
                 cntt += 1
-            print("found {} new song".format(len(tmp)))
+
+            get_raw_youtube_data.amt = (cntt // 2)
+            get_raw_youtube_data.getplaylist()  # get the api platlist / creates data.json
+            clean_for_percetage()
+            print("found {} new song".format(len(tmp))) # found 10 songs
             for x in tmp:
-                print(x, end="\n")
+                print("{}:{} send to db".format(vid_amt, x))  # 20-40
+                push_new_videos(mydb)
+                vid_amt += 1
+                print(vid_amt)
+                print("{} > {}".format(get_raw_youtube_data.amt, cntt))
+                if get_raw_youtube_data.amt > cntt:
+                    exit()
+                else:
+                    print("cycleing")
+                    get_raw_youtube_data.getplaylist()
+                    get_raw_youtube_data.get_update()
 
 
 
     def getplaylist():
-        pass
-       #my_youtube = get_raw_youtube_data.send_request()
+        # getting a youtube.com users playlist into memory
+        my_youtube = get_raw_youtube_data.send_request() # helper function to get youtube api
 
-       #request = my_youtube.playlistItems().list(
-       #    part="snippet,id",
-       #    maxResults=amt,
-       #    playlistId=playlist,
-       #)
-       #response = request.execute()
+        request = my_youtube.playlistItems().list(
+            part="snippet,id",
+            maxResults=get_raw_youtube_data.amt, # 10
+            playlistId=playlist,
+        )
+        response = request.execute()
 
-       #with open(file, "w") as send:
-       #    json.dump(response, send, indent=3)
+        with open(file, "w") as send:  # dumps the youtube api data into data.json
+            json.dump(response, send, indent=3)
