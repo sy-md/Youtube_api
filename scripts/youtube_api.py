@@ -1,35 +1,88 @@
 from googleapiclient.discovery import build
-import json, os
+import json
+import os
+import logging as lg 
 from mongo_db import pull_data_from_db, push_new_videos
 from pymongo import MongoClient
-from cleaning_data import clean_for_percetage
+from cleaning_data import clean_raw_data
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
-file = "data.json"
+file = "../data/data.json" # raw data
+
+yt_key = os.environ.get("API_KEY")
+psw = os.environ.get("PSW")
 
 api_service_name = "youtube"
-yt_key = os.environ.get("API_KEY")
 api_version = "v3"
 api_key = yt_key # put youtbe_api key here
 playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
-psw = os.environ.get("PSW")
+
 con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
 cli = MongoClient(con_str)
 mydb = cli["youtube"]
 collection = mydb["average_channels"]  # get/make a collection in the db
 
+lg.basicConfig()
+my_lg = lg.getLogger(__name__)
+my_lg.setLevel(lg.INFO)
 
 class get_raw_youtube_data():
-    amt= 50  # 50
+    amt= 0
+
     def send_request():
         youtube = build(
            api_service_name, api_version, developerKey=api_key
         )
+        my_lg.info("sending a requst to Youtube API ")
+
         return youtube
 
+    def getplaylist():
+        my_lg.info("getting youtube data")
+        my_youtube = get_raw_youtube_data.send_request() # helper function to get youtube api
+        
+
+        request = my_youtube.playlistItems().list(
+            part="snippet,id",
+            maxResults=get_raw_youtube_data.amt,
+            playlistId=playlist,
+        )
+
+        response = request.execute()
+        new_amt = response["pageInfo"]["totalResults"]
+        my_lg.info("{} videos left in Playlist".format(new_amt))
+        get_raw_youtube_data.amt = new_amt
+
+        request = my_youtube.playlistItems().list(
+            part="snippet,id",
+            maxResults=get_raw_youtube_data.amt,
+            playlistId=playlist,
+        )
+        my_lg.info("grabbed the youtube playlist ")
+        response = request.execute()
+        clean_raw_data(response)
+
+        with open(file, "w") as send:  # dumps the youtube api data into data.json
+            json.dump(response, send, indent=3)
+        my_lg.info("Storing user data")
+
+        
+###############################################
+
     def get_update():
+        get_raw_youtube_data.getplaylist()  # get the api platlist / creates data.json
+
+        my_lg.info("exiting")
+        exit()
+
+
+
+
+
         get_sv_data = pull_data_from_db(mydb) # get datbase playlist
+        my_lg.info("pulling data from my database")
+
 
         with open(file, "r") as read:  # opeing the youtube api json / data.json
             data = json.load(read)
@@ -49,7 +102,6 @@ class get_raw_youtube_data():
                 cntt += 1
 
             get_raw_youtube_data.amt = (cntt // 2)
-            get_raw_youtube_data.getplaylist()  # get the api platlist / creates data.json
             clean_for_percetage()
             print("found {} new song".format(len(tmp))) # found 10 songs
             for x in tmp:
@@ -67,16 +119,3 @@ class get_raw_youtube_data():
 
 
 
-    def getplaylist():
-        # getting a youtube.com users playlist into memory
-        my_youtube = get_raw_youtube_data.send_request() # helper function to get youtube api
-
-        request = my_youtube.playlistItems().list(
-            part="snippet,id",
-            maxResults=10,
-            playlistId=playlist,
-        )
-        response = request.execute()
-
-        with open(file, "w") as send:  # dumps the youtube api data into data.json
-            json.dump(response, send, indent=3)
