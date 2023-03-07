@@ -1,7 +1,7 @@
 import json
 import logging as lg
 
-cleaned = "cleaned.json"
+cleaned = "../output/cleaned.json"
 
 lg.basicConfig()
 my_log = lg.getLogger(__name__)
