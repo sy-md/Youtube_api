@@ -16,15 +16,20 @@ def clean_raw_data(response):
 
     items = data["items"]  # the list of video snippets
 
+    #my_log.info("set up vars")
     for k in range(0, len(items)):
+
         title = items[k]["snippet"]["title"]
         channel = items[k]["snippet"]["videoOwnerChannelTitle"]
+        link = items[k]["snippet"]["resourceId"]["videoId"]
+
         tmp["channle"] = channel
-        tmp["video"] = title
+        tmp["song_title"] = title
+        tmp["url"] = link
         cleaned_data.append(tmp)
         tmp = {}
 
     with open(cleaned, "w") as send:
         json.dump(cleaned_data, send, indent=3)
 
-    my_log.info("all done Cleaning user data ", cleaned_data)
+    my_log.info("all done Cleaning user data ")
