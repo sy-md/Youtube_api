@@ -6,7 +6,8 @@ password is the connection str psw
 
 youtube api is the the youtube goold cloud api key you make
 
-late night programming had a really simple issues but becuase i was tired
+late night programming: ISSUE
+1.) so tired didnt realize break, broke out of a current loop
 
 ```python
 api = [{"id" : "1","name" : "hello world"},{"id" : "2","name" : "mommy"},{"id" : "3","name" : "codind"}]  
@@ -26,4 +27,5 @@ for x in api:
 print("After >>",db)
 ```   
 
-1.) so tired didnt realize break, broke out of a current loop
+this code is a simple remake of my issues once a vid is found in the db or relizing that the video is in the db
+i was so tired i forgot abount the keyword break
