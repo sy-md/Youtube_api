@@ -8,7 +8,7 @@ youtube api is the the youtube goold cloud api key you make
 
 late night programming had a really simple issues but becuase i was tired
 
-```
+```python
 api = [{"id" : "1","name" : "hello world"},{"id" : "2","name" : "mommy"},{"id" : "3","name" : "codind"}]  
 db = [{"id" : "1","name" : "hello world"},{"id" : "2","name" : "mommy"}]
 
