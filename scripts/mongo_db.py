@@ -1,4 +1,4 @@
-import json,os
+import json,os,time
 import logging as lg
 from pymongo import MongoClient
 from dotenv import load_dotenv, find_dotenv
@@ -20,62 +20,54 @@ my_lg.setLevel(lg.INFO)
 class update_db:
     def get_vids():
         my_lg.info("pulling data from my database")
+
         with open(file, "r") as read:
             cl_data = json.load(read)
             db_data = update_db.pull_data_from_db(mydb)
             
-            """
-            check if cleaned data is not in the database
-            if cleaned data is in database continue
-
-            we only want whats not in the database
-            """
             seen = db_data
-            idx = 0
-            cnt = 0
+            new_vid = []
+            song = "song_title"
 
-            #while idx < len(cl_data):
-            for x in seen:
-                for k,v in x.items():
-                    if cl_data[idx]["song_title"] != v: 
-                        seen.append(cl_data[idx])
-                        print("not found in db")
-                        print(idx)
-                        print("sent" ,cl_data[idx])
+            for api in cl_data:
+                for db in range(len(db_data)):
+                    if api[song] == db_data[db][song]:
+                        #print("{} <> {} ... found in db".format(api[song],db_data[db][song]))
+                        #time.sleep(0.1)
+                        break
                     else:
-                        print("found in db")
-                idx += 1
-            #push_new_videos(mydb)
+                        #print("{} <> {} ... not found in db".format(api[song],db_data[db][song]))
+                        #time.sleep(0.1)
+                        if db == (len(db_data)-1):
+                            new_vid.append(api)
+                            break
 
+            if len(new_vid) < 1:
+                return
 
+            if seen is None:
+                push_new_videos(mydb , cl_data)
+            else:
+                for i in new_vid:
+                    print("found new song {}".format(i[song]))
+                    time.sleep(0.1)
+                push_new_videos(mydb ,new_vid)                        
  
     def pull_data_from_db(db) -> list:
         coll = db["average_channels"]
-
         saved_data = []
-
         mycoll = coll.find()
-
         for data in mycoll:
             saved_data.append(data)
-
         return saved_data
 
-
-def push_new_videos(mydb):
-    """
-    cleaned.json need a model
-
-    yt :
-        old : []
-        new : []
-
-    then this function onlt runs insertn_one() insead of many
-
-    """
-    
+def push_new_videos(mydb, nw_vid=None):
     collection = mydb["average_channels"]
-    with open(file, 'r') as reading:
-        data = json.load(reading)
 
-        collection.insert_many(data)
+    if nw_vid == "None":
+        with open(file, 'r') as reading:
+            data = json.load(reading)
+            collection.insert_many(data)
+    else:
+        collection.insert_many(nw_vid)
+

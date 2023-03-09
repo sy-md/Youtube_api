@@ -1,39 +1,39 @@
 {
    "kind": "youtube#playlistItemListResponse",
-   "etag": "3q8a83UKcn916mZf7kBts1iKAwc",
+   "etag": "PMXsMnTG48DjIOQMgyT7XxacRm8",
    "items": [
       {
          "kind": "youtube#playlistItem",
-         "etag": "PX5hqbRekzAjTu-sRyZcBjkm8PM",
-         "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yQjZFRkExQjFGODk3RUFD",
+         "etag": "xAaXVTnBnG3SKrS03WPC6VU7ZGw",
+         "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC44QzVGQUU2QjE2NDgxM0M4",
          "snippet": {
-            "publishedAt": "2023-03-08T16:39:57Z",
+            "publishedAt": "2023-03-09T17:37:41Z",
             "channelId": "UCLbZT_lSRhpmB-NyJHI_z9A",
-            "title": "If you learned how to deflect in real life.",
-            "description": "Music -\n\nOddwin - 8.16.18",
+            "title": "Nightcore - This Is War",
+            "description": "\u25baSubscribe For More Awesome Nightcore !!! \n\u21aa\ufe0e https://goo.gl/cxTfj3\n\u25baLike my fanpage for more special content and informations!\n\u21aa\ufe0e https://goo.gl/W8jYJr\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \n\u266b Song: No Resolve - This Is War\n\u2605 Image: https://www.pixiv.net/en/artworks/79095353\n\u2605 Original Artist: https://www.pixiv.net/en/users/7461446\n\u2605 Anime/Game: Original artwork (I'm not sure, let me know)\n\u2605 My Other Videos = https://goo.gl/9TYq3X\n\u2605 Copyright, Music Submission, Fan Contat, Other: gyuukinightcore@gmail.com \n\u2605 Comercial Cooperation: gyuukinightcore@gethero.pl \n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \nPlease support the original artist:\n~No Resolve \n- http://noresolveofficial.com/\n- https://www.youtube.com/noresolve\n- https://www.facebook.com/noresolve\n- https://twitter.com/noresolve\n- https://soundcloud.com/noresolve\n- https://open.spotify.com/artist/7oAoGc2k7201dlU7mkhlDp\n\u21aa\ufe0e Check out the original video ^^ : https://www.youtube.com/watch?v=Q2IVBbsLJZs\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac  \n\u2606COPYRIGHT / LICENSING \n\"Absolutely no copyright infringement is intended. All images, audio, and video clips are the sole property of their respective owners. This is only clipped for entertainment\"\n\n\u00a9 If you are the producer or owner of this song or art and you want it to be removed, then let me know and send me a pm (gyuukinightcore@gmail.com) and I will remove it.",
             "thumbnails": {
                "default": {
-                  "url": "https://i.ytimg.com/vi/8c5NAh94MnA/default.jpg",
+                  "url": "https://i.ytimg.com/vi/Ms9qtgnda4I/default.jpg",
                   "width": 120,
                   "height": 90
                },
                "medium": {
-                  "url": "https://i.ytimg.com/vi/8c5NAh94MnA/mqdefault.jpg",
+                  "url": "https://i.ytimg.com/vi/Ms9qtgnda4I/mqdefault.jpg",
                   "width": 320,
                   "height": 180
                },
                "high": {
-                  "url": "https://i.ytimg.com/vi/8c5NAh94MnA/hqdefault.jpg",
+                  "url": "https://i.ytimg.com/vi/Ms9qtgnda4I/hqdefault.jpg",
                   "width": 480,
                   "height": 360
                },
                "standard": {
-                  "url": "https://i.ytimg.com/vi/8c5NAh94MnA/sddefault.jpg",
+                  "url": "https://i.ytimg.com/vi/Ms9qtgnda4I/sddefault.jpg",
                   "width": 640,
                   "height": 480
                },
                "maxres": {
-                  "url": "https://i.ytimg.com/vi/8c5NAh94MnA/maxresdefault.jpg",
+                  "url": "https://i.ytimg.com/vi/Ms9qtgnda4I/maxresdefault.jpg",
                   "width": 1280,
                   "height": 720
                }
@@ -43,15 +43,156 @@
             "position": 0,
             "resourceId": {
                "kind": "youtube#video",
-               "videoId": "8c5NAh94MnA"
+               "videoId": "Ms9qtgnda4I"
             },
-            "videoOwnerChannelTitle": "CalebCity",
-            "videoOwnerChannelId": "UCI1XS_GkLGDOgf8YLaaXNRA"
+            "videoOwnerChannelTitle": "Gyuuki Nightcore",
+            "videoOwnerChannelId": "UCRI2AItOVJ4WIlSvIZGN40Q"
          }
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "Y03OGo9M__8ChuHJdzcLv0JtrkE",
+         "etag": "MWkxoBpZCNE-oxZCW7vzebvs8Kk",
+         "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC40QzRDOEU0QUYwNUIxN0M1",
+         "snippet": {
+            "publishedAt": "2023-03-09T09:41:14Z",
+            "channelId": "UCLbZT_lSRhpmB-NyJHI_z9A",
+            "title": "Nightcore \u21ac Beggin [NV | FEMALE VERSION]",
+            "description": "\u2716  WARNING! FLASHING LIGHTS! \u2716 \nTHANKS FOR WATCHING \u2665\n\n\u25ba INFORMATION \u25c4\n\n\u266a Song: Beggin\n\u266a Artist: Dame Dame, Lunis\n\u266a Original Vid: https://www.youtube.com/watch?v=FAE1gGIns1E\n\n\u25ba SUPPORT THE ARTISTS \u25c4\n\nFollow them!\nhttps://instagram.com/damedamemusic/\nhttps://open.spotify.com/artist/12Jp4jInGELGsN5jydIbx5?si=-1SkGLIBTdWFWl39J5cc6A&nd=1\nhttps://facebook.com/damedamemusic/\nhttps://twitter.com/damedamemusic/\nhttps://soundcloud.com/damedamemusic/\n\n\u25ba SUPPORT THE ARTIST \u25c4\n\n\u266a Artist: BIYA\nCharacter: Character by BIYA\nPixiv: https://www.pixiv.net/en/users/59275588\nTwitter: https://twitter.com/biya1024\nInstagram: https://www.instagram.com/biya1024/\n________________________________________\n\u25ba OTHER CHANNELS \u25c4 \n\u266a sarcastic.: http://bit.ly/2uWewMO\n\n\u25ba SOCIAL MEDIA \u25c4 \nInstagram: underdogs.nc\n________________________________________________________________\n\u25ba DISCLAIMER \u25c4 \n\nIf you don't want to have your art/song in this video please contact us. \n  \u2192 We'll remove it as fast as we can.\nE-MAIL: underdogs.ncyt@gmail.com  \nIf it's an urgent matter message us via Instagram!\n\nWe own nothing from this video, all the rights go to their original owners. We just made the video and the Nightcore, if you want us to remove this, then please message us through private messaging.\n\n#BIYA #Damedame #lunis #nightcore #underdogs #beggin #anime #amv",
+            "thumbnails": {
+               "default": {
+                  "url": "https://i.ytimg.com/vi/Tzo1zeUPccE/default.jpg",
+                  "width": 120,
+                  "height": 90
+               },
+               "medium": {
+                  "url": "https://i.ytimg.com/vi/Tzo1zeUPccE/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+               },
+               "high": {
+                  "url": "https://i.ytimg.com/vi/Tzo1zeUPccE/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+               },
+               "standard": {
+                  "url": "https://i.ytimg.com/vi/Tzo1zeUPccE/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+               },
+               "maxres": {
+                  "url": "https://i.ytimg.com/vi/Tzo1zeUPccE/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+               }
+            },
+            "channelTitle": "Martell Dorsett",
+            "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
+            "position": 1,
+            "resourceId": {
+               "kind": "youtube#video",
+               "videoId": "Tzo1zeUPccE"
+            },
+            "videoOwnerChannelTitle": "U N D E R D O G S.",
+            "videoOwnerChannelId": "UCPwndiuAdJMB6OyAs1Ou4dw"
+         }
+      },
+      {
+         "kind": "youtube#playlistItem",
+         "etag": "FC_xS9k0-SSDgTz6FaBar7-BFnI",
+         "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yQUJFNUVCMzVDNjcxRTlF",
+         "snippet": {
+            "publishedAt": "2023-03-09T01:49:02Z",
+            "channelId": "UCLbZT_lSRhpmB-NyJHI_z9A",
+            "title": "Nightcore - Animal I Have Become",
+            "description": "\ud83d\udd14 SUBSCRIBE TO JOIN TEAM EMY \ud83d\udd14\n\ud83d\udc49 Discord: https://discord.gg/fwZpA7x\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\ud83d\udc95 Support Me: https://buymeacoffee.com/emryth\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\ud83c\udfa4 Credited Artists: #threedaysgrace\n\n\ud83c\udfb6 Original Song: https://youtu.be/xqds0B_meys\n\n\ud83c\udfa8 Picture Used: https://www.pixiv.net/en/artworks/105952940\n\n\ud83d\udd0a Genre: #rock\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\ud83c\udf38 Follow Three Days Grace:\nhttps://www.facebook.com/threedaysgrace\nhttps://www.instagram.com/threedaysgraceofficial\nhttps://twitter.com/threedaysgrace\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\ud83d\udcc3 Lyrics:\nI can't escape this hell\nSo many times I've tried\nBut I\u2019m still caged inside\n\nSomebody get me through this nightmare\nI can\u2019t control myself\n\nSo what if you can see the darkest side of me?\nNo one will ever change this animal I have become\nHelp me believe it\u2019s not the real me\nSomebody help me tame this animal\n(This animal)\n(This animal)\n\nI can\u2019t escape myself\n(I can\u2019t escape myself)\nSo many times I\u2019ve lied\n(So many times I\u2019ve lied)\nBut there\u2019s still rage inside\n\nSomebody get me through this nightmare\nI can\u2019t control myself\n\nSo what if you can see the darkest side of me?\nNo one will ever change this animal I have become\nHelp me believe it\u2019s not the real me\nSomebody help me tame this animal I have become\nHelp me believe it\u2019s not the real me\nSomebody help me tame this animal\n\nSomebody help me through this nightmare\nI can\u2019t control myself\nSomebody wake me from this nightmare\nI can\u2019t escape this hell\n\nThis animal\nThis animal\nThis animal\nThis animal\nThis animal\nThis animal\nThis animal\n\nSo what if you can see the darkest side of me?\nNo one will ever change this animal I have become\nHelp me believe it\u2019s not the real me\nSomebody help me tame this animal I have become\nHelp me believe it\u2019s not the real me\nSomebody help me tame this animal\n\nThis animal I have become\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\ud83d\udccc Tags:\n#nightcore #nightcoremusic #nightcoresongs\n#nightcoresong #nightcoremix #spedup\n#trendingmusic #tiktokmusic #tiktoksong\n#rockmusic #nightcorerock #workoutmusic\n#animalihavebecome\n\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\n\n\u26d4 For copyright issues or business inquiries:\nContact me via email - contact(at)grimbit.net.\nAllow up to 72hrs for a response.",
+            "thumbnails": {
+               "default": {
+                  "url": "https://i.ytimg.com/vi/PmzSKHP89xk/default.jpg",
+                  "width": 120,
+                  "height": 90
+               },
+               "medium": {
+                  "url": "https://i.ytimg.com/vi/PmzSKHP89xk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+               },
+               "high": {
+                  "url": "https://i.ytimg.com/vi/PmzSKHP89xk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+               },
+               "standard": {
+                  "url": "https://i.ytimg.com/vi/PmzSKHP89xk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+               },
+               "maxres": {
+                  "url": "https://i.ytimg.com/vi/PmzSKHP89xk/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+               }
+            },
+            "channelTitle": "Martell Dorsett",
+            "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
+            "position": 2,
+            "resourceId": {
+               "kind": "youtube#video",
+               "videoId": "PmzSKHP89xk"
+            },
+            "videoOwnerChannelTitle": "Emryth Nightcore",
+            "videoOwnerChannelId": "UCOyLrloDe-WbfHtFjLeBARw"
+         }
+      },
+      {
+         "kind": "youtube#playlistItem",
+         "etag": "GfI6iA0YqpklQ6v6h05zSzeUqJ4",
+         "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yQjZFRkExQjFGODk3RUFD",
+         "snippet": {
+            "publishedAt": "2023-03-09T01:30:35Z",
+            "channelId": "UCLbZT_lSRhpmB-NyJHI_z9A",
+            "title": "Nightcore - FANGS",
+            "description": "All my favorite monsters they got fangs \n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \nIf you like my Nightcores, please subscribe my channel:\n\u21aa\ufe0e https://goo.gl/cxTfj3\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \nNIGHTCORE DETAILS\n\u266b Original Song Title: Neoni - FANGS\n\u2605 Picture used in the video: https://www.pixiv.net/en/artworks/104469535\n\u2605 Picture Artist: https://www.pixiv.net/en/users/76685967 / https://twitter.com/MrM_arts\n\u2605 Picture basis on anime/game: Original Artwork \n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \nMY CHANNEL\n\u2605 My other videos available here: https://goo.gl/9TYq3X\n\u2605 For Music Submission, Fan Contact, Other, please contact here: gyuukinightcore@gmail.com \n\u2605 For Comercial Cooperation, please contact here: gyuukinightcore@gethero.pl\n\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac\u25ac \nORIGINAL ARTISTS - Neoni\nPlease support these girls, they really deserve it! \n~Neoni\n- https://soundcloud.com/WeAreNeoni \n- https://www.youtube.com/neoni\n- https://twitter.com/WeAreNeoni \n- https://www.instagram.com/weareneoni/\n- https://www.facebook.com/WeAreNeoni\n- https://weareneoni.com/\n\n\u21aa\ufe0eMake some noise in the original one: https://www.youtube.com/watch?v=YGVdUQFpKVs",
+            "thumbnails": {
+               "default": {
+                  "url": "https://i.ytimg.com/vi/DnEwFOqaRPs/default.jpg",
+                  "width": 120,
+                  "height": 90
+               },
+               "medium": {
+                  "url": "https://i.ytimg.com/vi/DnEwFOqaRPs/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+               },
+               "high": {
+                  "url": "https://i.ytimg.com/vi/DnEwFOqaRPs/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+               },
+               "standard": {
+                  "url": "https://i.ytimg.com/vi/DnEwFOqaRPs/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+               },
+               "maxres": {
+                  "url": "https://i.ytimg.com/vi/DnEwFOqaRPs/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+               }
+            },
+            "channelTitle": "Martell Dorsett",
+            "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
+            "position": 3,
+            "resourceId": {
+               "kind": "youtube#video",
+               "videoId": "DnEwFOqaRPs"
+            },
+            "videoOwnerChannelTitle": "Gyuuki Nightcore",
+            "videoOwnerChannelId": "UCRI2AItOVJ4WIlSvIZGN40Q"
+         }
+      },
+      {
+         "kind": "youtube#playlistItem",
+         "etag": "SdWD0xYtVeAa0KL02wW4Ed_dTeo",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41MzY4MzcwOUFFRUU3QzEx",
          "snippet": {
             "publishedAt": "2023-03-07T09:40:49Z",
@@ -87,7 +228,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 1,
+            "position": 4,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "xlBNb1XiR0g"
@@ -98,7 +239,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "sc3p9jh99wfsVcbg5jTw4FlKFfg",
+         "etag": "JTAsrXdqt3om5EDxiNpcjxrge4I",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DRUQwODMxQzUyRTlGRkY3",
          "snippet": {
             "publishedAt": "2023-03-06T21:58:54Z",
@@ -134,7 +275,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 2,
+            "position": 5,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "NRj8n4a7kpU"
@@ -145,7 +286,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "-C02SRVjHGrdR0tqBrY4Sn_iYSc",
+         "etag": "2GAOxf19p0Y4HmktBguT_FT8oV8",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DNkMwRUI2MkI4QkI4NDFG",
          "snippet": {
             "publishedAt": "2023-03-06T21:54:36Z",
@@ -181,7 +322,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 3,
+            "position": 6,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "NLd9V8h-zDQ"
@@ -192,7 +333,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "zqaeKrKozZ_3USQKecgxKg-2KTk",
+         "etag": "7TDjlRUDDPgbv1YcSdLv9-YVtHo",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45NkVENTkxRDdCQUFBMDY4",
          "snippet": {
             "publishedAt": "2023-03-01T00:31:52Z",
@@ -228,7 +369,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 4,
+            "position": 7,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "hWw0rrMt9xk"
@@ -239,7 +380,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "uSJCHYs315pt6UNZrS34E4faGyY",
+         "etag": "vkAE1iS7525zPOQS-_izzUBPz7M",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4zQzFBN0RGNzNFREFCMjBE",
          "snippet": {
             "publishedAt": "2023-02-25T16:50:27Z",
@@ -275,7 +416,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 5,
+            "position": 8,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "ggEZijT8LHk"
@@ -286,7 +427,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "48WPE2Yw21o37SWprRTziIOA3E4",
+         "etag": "mqayR4UuhentK_zDOO_ErOeE3Ik",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5GNDg1Njc1QzZERjlFRjE5",
          "snippet": {
             "publishedAt": "2023-02-25T13:41:12Z",
@@ -317,7 +458,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 6,
+            "position": 9,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "POqU-jFv5ko"
@@ -328,7 +469,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "jVCjb85kZMJejrAYS_Pjrpd4OAg",
+         "etag": "wkGUOaOL-E9SnKhXW-3aaNS07H8",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4xOTEzQzhBQzU3MDNDNjcz",
          "snippet": {
             "publishedAt": "2023-02-18T04:33:56Z",
@@ -364,7 +505,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 7,
+            "position": 10,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "vYSuOXeM2vg"
@@ -375,7 +516,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "CaiDFsspcf0b4GmqJwqCLb-RkDg",
+         "etag": "Acg6QfOAdFcXeCIC7ZDLP9NKEtE",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5BRjJDODk5REM0NjkzMUIy",
          "snippet": {
             "publishedAt": "2023-02-16T23:25:21Z",
@@ -411,7 +552,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 8,
+            "position": 11,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "x22CGvzxiOo"
@@ -422,7 +563,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "k2Ru3R2E6CbrsnaTL68NfzyjbH0",
+         "etag": "jW1YKhSvQouGCRwWjykhEUPN7dE",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC40QTA3NTU2RkM1QzlCMzYx",
          "snippet": {
             "publishedAt": "2023-02-01T05:08:25Z",
@@ -458,7 +599,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 9,
+            "position": 12,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "2XrET-KUbYM"
@@ -469,7 +610,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "SGZXOOCXtPYPiD2ATX5czDtO2Ss",
+         "etag": "Sd-O_XhMntTYACCjJyy423z-Nbo",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45RjNFMDhGQ0Q2RkFCQTc1",
          "snippet": {
             "publishedAt": "2023-01-31T17:55:54Z",
@@ -505,7 +646,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 10,
+            "position": 13,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "AzzI23HQ53o"
@@ -516,7 +657,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "i8L4ROVduzHtoFzgX21erKsYzbY",
+         "etag": "aoolRi6dzwUv6sV8sL0PluSg3xg",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC42MTI4Njc2QjM1RjU1MjlG",
          "snippet": {
             "publishedAt": "2023-01-26T20:04:36Z",
@@ -552,7 +693,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 11,
+            "position": 14,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "gRXg07mFp1A"
@@ -563,7 +704,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "pDmSy6kIRVgkQcxUBOOtqXvDcpg",
+         "etag": "_qumeaSSfPnEbHM96gn5PrNRNm0",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5CMEQ2Mjk5NTc3NDZFRUNB",
          "snippet": {
             "publishedAt": "2023-01-26T19:58:13Z",
@@ -594,7 +735,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 12,
+            "position": 15,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "xkAooIDW4yM"
@@ -605,7 +746,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "ywrBcCfHnMudrgIDpLefOJIc8EI",
+         "etag": "HRqSM4Y7Xs2ign3Te5hQZSP2GoY",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4zRDBDOEZDOUM0MDY5NEEz",
          "snippet": {
             "publishedAt": "2023-01-26T15:31:45Z",
@@ -641,7 +782,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 13,
+            "position": 16,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "DW_A4Ih2Ro8"
@@ -652,7 +793,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "fFWWXSCe1KWW79mwzRwVoUu8Iqs",
+         "etag": "fXOdMyq-Mv7I_h2kfI5UEwn02AQ",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41QUZGQTY5OTE4QTREQUU4",
          "snippet": {
             "publishedAt": "2023-01-26T14:10:30Z",
@@ -688,7 +829,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 14,
+            "position": 17,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "Iuh3EGAGj18"
@@ -699,7 +840,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "xe9zobmciVpFf4acWAUR7OMhwNw",
+         "etag": "fjJ4_En7df6wMfV8wS8wK_h7eJk",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC43NDhFRTgwOTRERTU4Rjg3",
          "snippet": {
             "publishedAt": "2023-01-26T13:50:08Z",
@@ -735,7 +876,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 15,
+            "position": 18,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "c4OhZ7Wi4VI"
@@ -746,7 +887,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "is-Nx-L4kwv_6EdoI5k6TV3Dh9M",
+         "etag": "jVvRtW25j3UyOWMhObrPBvBdBvU",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC44Mjc5REFBRUE2MTdFRDU0",
          "snippet": {
             "publishedAt": "2022-11-17T13:08:36Z",
@@ -782,7 +923,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 16,
+            "position": 19,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "-DoSUA1EK2I"
@@ -793,7 +934,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "BCL_s4JTKxTYSBDZ_EWKIYzmwT0",
+         "etag": "b2iFXaATh9__EhflwBJuM4pf7Jc",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DMkU4NTY1QUFGQTYwMDE3",
          "snippet": {
             "publishedAt": "2022-11-15T11:13:43Z",
@@ -829,7 +970,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 17,
+            "position": 20,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "ZxRSNfUWkRw"
@@ -840,7 +981,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "cGom2MER0IYrL8Nx0fmngZS9u5k",
+         "etag": "pAbJAcR6gkJ1_2vp8snCqWh2Seo",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yQUE2Q0JEMTk4NTM3RTZC",
          "snippet": {
             "publishedAt": "2022-11-15T10:15:36Z",
@@ -876,7 +1017,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 18,
+            "position": 21,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "f__SjkMk2gY"
@@ -887,7 +1028,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "tJUsnB8LaodV0kQsfSC3JhO8r40",
+         "etag": "7Yu_DFADU2OJnjgzNsp_6ouX_LY",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DQ0MyQ0Y4Mzg0M0VGOEYw",
          "snippet": {
             "publishedAt": "2022-11-15T10:11:07Z",
@@ -923,7 +1064,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 19,
+            "position": 22,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "b8NZJaE_phU"
@@ -934,7 +1075,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "4xSG11WvLPzWkjP-XXoFXfswaSo",
+         "etag": "pqogYumhLNB5VybWyz6nEj7iqJE",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DNzE1RjZEMUZCMjA0RDBB",
          "snippet": {
             "publishedAt": "2022-11-13T13:13:09Z",
@@ -970,7 +1111,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 20,
+            "position": 23,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "hmwcT52SWRg"
@@ -981,7 +1122,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "pA1X63OD8zambN7r9QH2nkHPIJI",
+         "etag": "FeJTByb1SYPLAudirKn_BP2Qu9A",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45NzUwQkI1M0UxNThBMkU0",
          "snippet": {
             "publishedAt": "2022-11-13T13:09:13Z",
@@ -1017,7 +1158,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 21,
+            "position": 24,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "erA03X1SgxE"
@@ -1028,7 +1169,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "xhN6WXKJh_8Fp9knH87Hwyli1Rs",
+         "etag": "n5291PKL72OKT3lj7ldtfy7uoRU",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4zRjM0MkVCRTg0MkYyQTM0",
          "snippet": {
             "publishedAt": "2022-08-24T10:58:00Z",
@@ -1064,7 +1205,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 22,
+            "position": 25,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "kcU8UTdgED4"
@@ -1075,7 +1216,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "g9WzPiv4FJpFOpWB4bfeLeeI3SA",
+         "etag": "WZ_WMU8yoqvkbuDmXOhXlDPUldg",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5GM0Q3M0MzMzY5NTJFNTdE",
          "snippet": {
             "publishedAt": "2022-08-24T10:57:30Z",
@@ -1111,7 +1252,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 23,
+            "position": 26,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "dGeZn3dz3qU"
@@ -1122,7 +1263,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "qyfGOqxVDfwf2BV0IUD1RNkmDd8",
+         "etag": "fRzWEsfL0ffmq6twnJjNp9F3zWU",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5ENDU4Q0M4RDExNzM1Mjcy",
          "snippet": {
             "publishedAt": "2022-08-24T10:44:56Z",
@@ -1158,7 +1299,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 24,
+            "position": 27,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "n1T8hp7LF3M"
@@ -1169,7 +1310,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "k1o_mE-iff5PBtBnQ1aSyV0fLAk",
+         "etag": "BrfEML_zAL2cXWKs8L2w8iX-g4s",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45RTgxNDRBMzUwRjQ0MDhC",
          "snippet": {
             "publishedAt": "2022-08-21T03:40:18Z",
@@ -1205,7 +1346,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 25,
+            "position": 28,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "ZbHz930cGRo"
@@ -1216,7 +1357,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "_KGxdCWxHX96DB3R0f87dcoB5Kc",
+         "etag": "Hj1cbqy1LWxnVPEZQQ5FtX3p0W4",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yMUQyQTQzMjRDNzMyQTMy",
          "snippet": {
             "publishedAt": "2022-08-13T04:55:58Z",
@@ -1252,7 +1393,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 26,
+            "position": 29,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "06CJ9r6Z_MQ"
@@ -1263,7 +1404,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "CfJN0kRG2cRg9ALAx68Xx1F8gRg",
+         "etag": "QyJ4tXJLVwnOzy-Wg3DfnOsPvhA",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41QTY1Q0UxMTVCODczNThE",
          "snippet": {
             "publishedAt": "2022-08-13T04:55:24Z",
@@ -1299,7 +1440,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 27,
+            "position": 30,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "KPUmllrc3ig"
@@ -1310,7 +1451,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "PhnMzGVAqQSQVN0736sHZqoQCE4",
+         "etag": "nWHtRLtBRAJkT8dxTn9UxCFXGAI",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5EQUE1NTFDRjcwMDg0NEMz",
          "snippet": {
             "publishedAt": "2022-08-13T04:44:29Z",
@@ -1346,7 +1487,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 28,
+            "position": 31,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "i2dorCWprsE"
@@ -1357,7 +1498,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "aeSRn94aE5AAR3OkZThVVOnwz8s",
+         "etag": "-W_sUfIgXNZwAohBnL6ii91GXJg",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41Mzk2QTAxMTkzNDk4MDhF",
          "snippet": {
             "publishedAt": "2022-08-13T04:43:53Z",
@@ -1393,7 +1534,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 29,
+            "position": 32,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "tm6d-6pgOQA"
@@ -1404,7 +1545,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "6aDg3QxEFYg7vfBff3tinH2TNik",
+         "etag": "s7iK4hUEnkIC2Kpwyp5Tv8yPG3E",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4zMDg5MkQ5MEVDMEM1NTg2",
          "snippet": {
             "publishedAt": "2022-08-13T04:43:24Z",
@@ -1440,7 +1581,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 30,
+            "position": 33,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "A-efuESvesU"
@@ -1451,7 +1592,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "YmUp2c608bcv2aEhnYAqrbJ8MOQ",
+         "etag": "bVMI203fJHKJFEFWTGUx5MwEIgA",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45ODRDNTg0QjA4NkFBNkQy",
          "snippet": {
             "publishedAt": "2022-08-11T12:58:18Z",
@@ -1487,7 +1628,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 31,
+            "position": 34,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "H6KLj5USxTg"
@@ -1498,7 +1639,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "bdZ-hyjXNO9AUvOcCvn2gSRqI8g",
+         "etag": "wgbaApa8cI69IKOqID28bLeWZ6k",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5EMEEwRUY5M0RDRTU3NDJC",
          "snippet": {
             "publishedAt": "2022-08-11T12:51:30Z",
@@ -1534,7 +1675,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 32,
+            "position": 35,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "CgTZPzVYesk"
@@ -1545,7 +1686,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "1WS99HhAYyA4y-lVoMNdGagG-6s",
+         "etag": "tsa_-nsEuDRt6mnIegCAJJHq-lg",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC40NzZCMERDMjVEN0RFRThB",
          "snippet": {
             "publishedAt": "2022-08-11T12:51:23Z",
@@ -1581,7 +1722,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 33,
+            "position": 36,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "pkyLAWX5V30"
@@ -1592,7 +1733,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "97290ZUgGNKT_wP0ep1Ti9pcb2w",
+         "etag": "ntPy2PfRdSNf6iZpQ9XgrtOFMZw",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5GNjNDRDREMDQxOThCMDQ2",
          "snippet": {
             "publishedAt": "2022-08-11T12:51:17Z",
@@ -1628,7 +1769,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 34,
+            "position": 37,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "h2XTsWgN0CU"
@@ -1639,7 +1780,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "qXK5A6vwBb7ritifQUeEb0CttGQ",
+         "etag": "kAFHKH1x2lh42EM0Dvkitwo8sbc",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC45NDk1REZENzhEMzU5MDQz",
          "snippet": {
             "publishedAt": "2022-08-11T12:47:29Z",
@@ -1675,7 +1816,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 35,
+            "position": 38,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "UIyyPsfBEfc"
@@ -1686,7 +1827,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "LkXvKqrmMgKK_J9YOUVUCi84Qo4",
+         "etag": "GGZ5-Gj5SDO4FnaJf9eg7Plfxfo",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC5DQUNERDQ2NkIzRUQxNTY1",
          "snippet": {
             "publishedAt": "2022-08-11T12:41:42Z",
@@ -1722,7 +1863,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 36,
+            "position": 39,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "7sC5WkEvchU"
@@ -1733,7 +1874,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "O5GQrMK3Dtek2oosynIS4hP80E0",
+         "etag": "OsqyK8DP62cwBoRcgVM7z02xEdw",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41MzJCQjBCNDIyRkJDN0VD",
          "snippet": {
             "publishedAt": "2022-08-11T12:35:28Z",
@@ -1769,7 +1910,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 37,
+            "position": 40,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "DBbrNfRSllQ"
@@ -1780,7 +1921,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "Mge67Z8ynvjNlfuZ3M7OTsLgPtg",
+         "etag": "71ZpO7V6pGTshp72J7KHv-YMvzE",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4xMkVGQjNCMUM1N0RFNEUx",
          "snippet": {
             "publishedAt": "2022-08-11T12:32:44Z",
@@ -1816,7 +1957,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 38,
+            "position": 41,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "R_ESNXmBuOw"
@@ -1827,7 +1968,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "v6TsA9R9tUgSNp3f5Pzi-z1d5SI",
+         "etag": "bFgoRGrj8KjavCx-ImfElpL4jXQ",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4wOTA3OTZBNzVEMTUzOTMy",
          "snippet": {
             "publishedAt": "2022-08-11T12:13:06Z",
@@ -1853,7 +1994,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 39,
+            "position": 42,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "rvn6aNNnsXk"
@@ -1864,7 +2005,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "lH7TJzeJqLQ06BfySpXBCLTE9xQ",
+         "etag": "Rsge1y0IzuXsvuDNadrZ113aEZI",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41MjE1MkI0OTQ2QzJGNzNG",
          "snippet": {
             "publishedAt": "2022-08-11T12:08:10Z",
@@ -1900,7 +2041,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 40,
+            "position": 43,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "JDECqMfRQb0"
@@ -1911,7 +2052,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "Kmaxeh1K_6P4Jqj6s3RS6kD2sJo",
+         "etag": "7VPf8U6nGwoc9ZtwNt8RfSrZ9No",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4wMTcyMDhGQUE4NTIzM0Y5",
          "snippet": {
             "publishedAt": "2022-08-11T12:04:32Z",
@@ -1947,7 +2088,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 41,
+            "position": 44,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "OGC0mmM2DHg"
@@ -1958,7 +2099,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "O7FIlobJk2t--2516EBO0q4Mkbc",
+         "etag": "hAeFJEebZv1Ishp--ps6GSs0aew",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC4yODlGNEE0NkRGMEEzMEQy",
          "snippet": {
             "publishedAt": "2022-08-11T12:04:19Z",
@@ -1994,7 +2135,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 42,
+            "position": 45,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "kiBVdNE1Wq8"
@@ -2005,7 +2146,7 @@
       },
       {
          "kind": "youtube#playlistItem",
-         "etag": "xh2GH3zFKDZGnIOtv3GMPN-5ai8",
+         "etag": "RQmdUGe3YcJVHaBUjeycAM_UPug",
          "id": "UExVQ1Y3S1BMd3oxRkxybUkwSlRJczFoT3JTTThrdkNhTC41NkI0NEY2RDEwNTU3Q0M2",
          "snippet": {
             "publishedAt": "2022-08-11T12:04:12Z",
@@ -2041,7 +2182,7 @@
             },
             "channelTitle": "Martell Dorsett",
             "playlistId": "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL",
-            "position": 43,
+            "position": 46,
             "resourceId": {
                "kind": "youtube#video",
                "videoId": "0D2yjFYUBKA"
@@ -2052,7 +2193,7 @@
       }
    ],
    "pageInfo": {
-      "totalResults": 44,
-      "resultsPerPage": 44
+      "totalResults": 47,
+      "resultsPerPage": 47
    }
 }
