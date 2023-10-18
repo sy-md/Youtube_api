@@ -1,0 +1,6 @@
+only use apt 
+
+i3status
+rofi
+nitrogen - exec_always nitrgon --restore
+picom
