@@ -17,9 +17,9 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
 
 # THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
+cd into the downloads
 
->> git clone 
->> # get all depenpeces from wiki/github
+>> git clone https://github.com/Airblader/i3.wiki.git i3 
 >> mkdir build && cd build
 >> sudo apt install meson && meson ..
 >> ninja
