@@ -31,3 +31,5 @@ make a file ~/.xinit.rc >> exec i3
 
 
 https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
+
+also the ~/.dmrc >> Session= i3 --- this will make it open i3 every time
