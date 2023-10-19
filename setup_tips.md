@@ -19,16 +19,16 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
 sudo apt install i3 dmenu suckless-tools
 cd into the downloads
 
->> git clone https://github.com/Airblader/i3.wiki.git i3 
->> mkdir build && cd build
->> sudo apt install meson && meson ..
->> ninja
->> sudo ninja install
->> two file ect/lxsesssion/ldxp-pi {desktop = i3 or comment out}
->> i3-config-wizard
->> sudo apt-get install lightdm 
->> sudo update-alternatives --config x-window-manager && sudo update-alternatives --config x-session-manager 
->> startx
+1. git clone https://github.com/Airblader/i3.wiki.git i3
+2. mkdir build && cd build
+3. sudo apt install meson && meson ..
+4. ninja
+5. sudo ninja install
+6. two file ect/lxsesssion/ldxp-pi {desktop = i3 or comment out}
+7. i3-config-wizard
+8. sudo apt-get install lightdm
+9. sudo update-alternatives --config x-window-manager && sudo update-alternatives --config x-session-manager
+10. startx
 
 make a file ~/.xinit.rc >> exec i3
 also the ~/.dmrc >> Session= i3 --- this will make it open i3 every time
