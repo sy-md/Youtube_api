@@ -1,4 +1,4 @@
-only use apt 
+ use apt 
 
 i3status
 rofi
@@ -28,3 +28,6 @@ startx -ll launch dory server
 
 
 make a file ~/.xinit.rc >> exec i3
+
+
+https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
