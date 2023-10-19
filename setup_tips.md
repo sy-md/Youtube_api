@@ -4,7 +4,7 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * i3status / i3blocks
    * rofi
    * picom
-   * https://github.com/muesli/duf.git
+   * https://github.com/muesli/duf.git - apt install duf
    * https://github.com/sharkdp/bat.git
    * https://github.com/junegunn/fzf.git
    * https://github.com/dalance/procs.git
