@@ -9,3 +9,6 @@ to sway os's sudo update-alternatives --config x-window-manager
 
 THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
+
+sudo apt-get install lightdm -login shit
+starts -ll launch dory server
