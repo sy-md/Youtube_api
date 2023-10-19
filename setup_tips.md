@@ -8,9 +8,9 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * https://github.com/sharkdp/bat.git
    * https://github.com/junegunn/fzf.git
    * https://github.com/dalance/procs.git
-      * --https://github.com/aristocratos/bpytop.git--
+      * * --https://github.com/aristocratos/bpytop.git--
    * https://github.com/WayneD/rsync.git
-      * --https://github.com/chmln/sd.git--
+      * * --https://github.com/chmln/sd.git--
    * https://github.com/nicolargo/glances.git
    * https://github.com/cmus/cmus.git
    * https://github.com/dylanaraps/neofetch.git
