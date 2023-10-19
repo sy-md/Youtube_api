@@ -11,7 +11,7 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * * https://github.com/dylanaraps/neofetch.git - sudo apt-get install neofetch
    * https://github.com/cmus/cmus.git - buidl
    * https://github.com/WayneD/rsync.git - build
-     
+---  
   __other option for glances__
   * https://github.com/dalance/procs.git
       * * --https://github.com/aristocratos/bpytop.git
