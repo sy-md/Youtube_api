@@ -4,14 +4,14 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * i3status / i3blocks
    * rofi
    * picom
-   * https://github.com/muesli/duf.git - apt install duf
+   * https://github.com/muesli/duf.git -  apt install duf
    * https://github.com/sharkdp/bat.git - sudo apt install bat
    * https://github.com/junegunn/fzf.git - sudo apt install fzf / checkvim for info alwell
    * https://github.com/nicolargo/glances.git - apt install python3-psutil
    * https://github.com/cmus/cmus.git - buidling
    * https://github.com/dylanaraps/neofetch.git - sudo apt-get install neofetch
      
-    _other option for glances_
+  __other option for glances__
    * https://github.com/dalance/procs.git
       * * --https://github.com/aristocratos/bpytop.git--
    * https://github.com/WayneD/rsync.git
