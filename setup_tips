@@ -25,3 +25,6 @@ sudo apt install i3 dmenu suckless-tools
 
 sudo apt-get install lightdm -login shit
 startx -ll launch dory server
+
+
+make a file ~/.xinit.rc >> exec i3
