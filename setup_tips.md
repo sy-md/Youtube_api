@@ -1,21 +1,19 @@
 https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
 
 # some of the tool is use for the ricing of my i3
- * i3status / i3blocks
- * rofi
- * picom
- * https://github.com/muesli/duf.git
- * https://github.com/sharkdp/bat.git
- * https://github.com/junegunn/fzf.git
- * https://github.com/dalance/procs.git
-   --https://github.com/aristocratos/bpytop.git--
- * https://github.com/WayneD/rsync.git
- * --https://github.com/chmln/sd.git--
-
-
-https://github.com/nicolargo/glances.git
-https://github.com/cmus/cmus.git
-https://github.com/dylanaraps/neofetch.git
+   * i3status / i3blocks
+   * rofi
+   * picom
+   * https://github.com/muesli/duf.git
+   * https://github.com/sharkdp/bat.git
+   * https://github.com/junegunn/fzf.git
+   * https://github.com/dalance/procs.git
+      * --https://github.com/aristocratos/bpytop.git--
+   * https://github.com/WayneD/rsync.git
+      * --https://github.com/chmln/sd.git--
+   * https://github.com/nicolargo/glances.git
+   * https://github.com/cmus/cmus.git
+   * https://github.com/dylanaraps/neofetch.git
 
 
 
