@@ -15,6 +15,7 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
   __other option for glances__
   * https://github.com/dalance/procs.git
       * * --https://github.com/aristocratos/bpytop.git
+---
   __others__
   * https://github.com/chmln/sd.git
   
