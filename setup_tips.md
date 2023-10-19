@@ -1,6 +1,10 @@
 https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
+https://www.makeuseof.com/things-to-do-after-installing-i3wm/ {about i3}
 
 # some of the tool is use for the ricing of my i3
+   * sudo apt install nitrogen - exec always nitrogen --restore >> i3 config
+   * sudo apt install -y picom - exec picom >> i3 config
+     
    * https://github.com/muesli/duf.git -  apt install duf
    * https://github.com/sharkdp/bat.git - sudo apt install bat
    * https://github.com/junegunn/fzf.git - sudo apt install fzf / checkvim for info alwell
@@ -9,7 +13,7 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * https://github.com/vivien/i3blocks.git -- build
    * https://github.com/i3/i3status.git -- build
    * https://github.com/davatorium/rofi.git -- build
-   * https://github.com/yshui/picom.git -- build
+
    * https://github.com/cmus/cmus.git - build
    * https://github.com/WayneD/rsync.git - build
 ---  
@@ -18,7 +22,8 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
       * * --https://github.com/aristocratos/bpytop.git
 ---
   __others__
-  * https://github.com/chmln/sd.git
+  * https://github.com/chmln/sd.git -- parser
+  * https://github.com/derf/feh.git -- inamger viewer
   
 # THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
