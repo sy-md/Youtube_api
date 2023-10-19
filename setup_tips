@@ -10,5 +10,18 @@ to sway os's sudo update-alternatives --config x-window-manager
 THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
 
+>> git clone 
+>> # get all depenpeces from wiki/github
+>> mkdir build && cd build
+>> sudo apt install meson && meson ..
+>>ninja
+>> sudo ninja install
+>> two file ect/lxsesssion/ldxp-pi {desktop = i3 or comment out}
+>> i3-config-wizard
+>>sudo apt-get install lightdm 
+? 
+>>startx
+
+
 sudo apt-get install lightdm -login shit
 starts -ll launch dory server
