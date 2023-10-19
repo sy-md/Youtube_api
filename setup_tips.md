@@ -35,7 +35,7 @@ cd into the downloads
 make a file ~/.xinit.rc >> exec i3
 also the ~/.dmrc >> Session= i3 --- this will make it open i3 every time
 
-startx -ll launch dory server
+startx -ll launch dorx server
 
 
 
