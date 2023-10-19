@@ -10,7 +10,8 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * https://github.com/nicolargo/glances.git - apt install python3-psutil
    * https://github.com/cmus/cmus.git - buidling
    * https://github.com/dylanaraps/neofetch.git - sudo apt-get install neofetch
-_other option for glances_
+     
+    _other option for glances_
    * https://github.com/dalance/procs.git
       * * --https://github.com/aristocratos/bpytop.git--
    * https://github.com/WayneD/rsync.git
