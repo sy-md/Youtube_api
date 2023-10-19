@@ -15,10 +15,6 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * https://github.com/cmus/cmus.git
    * https://github.com/dylanaraps/neofetch.git
 
-
-
-
-
 # THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
 
