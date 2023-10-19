@@ -4,3 +4,5 @@ i3status
 rofi
 nitrogen - exec_always nitrgon --restore
 picom
+
+to sway os's sudo update-alternatives --config x-window-manager
