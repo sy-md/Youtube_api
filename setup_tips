@@ -24,4 +24,4 @@ sudo apt install i3 dmenu suckless-tools
 
 
 sudo apt-get install lightdm -login shit
-starts -ll launch dory server
+startx -ll launch dory server
