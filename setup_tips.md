@@ -8,14 +8,15 @@ https://steemit.com/raspberry/@joedoe47/easily-run-i3-on-raspberrypi
    * https://github.com/sharkdp/bat.git - sudo apt install bat
    * https://github.com/junegunn/fzf.git - sudo apt install fzf / checkvim for info alwell
    * https://github.com/nicolargo/glances.git - apt install python3-psutil
-   * https://github.com/cmus/cmus.git - buidling
-   * https://github.com/dylanaraps/neofetch.git - sudo apt-get install neofetch
+   * * https://github.com/dylanaraps/neofetch.git - sudo apt-get install neofetch
+   * https://github.com/cmus/cmus.git - buidl
+   * https://github.com/WayneD/rsync.git - build
      
   __other option for glances__
-   * https://github.com/dalance/procs.git
-      * * --https://github.com/aristocratos/bpytop.git--
-   * https://github.com/WayneD/rsync.git
-      * * --https://github.com/chmln/sd.git--
+  * https://github.com/dalance/procs.git
+      * * --https://github.com/aristocratos/bpytop.git
+  __others__
+  * https://github.com/chmln/sd.git
   
 # THIS HELP I3 BE VISABLE ON WINDOES MANGER
 sudo apt install i3 dmenu suckless-tools
