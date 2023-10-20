@@ -38,7 +38,7 @@ cd into the downloads
 6. two file ect/lxsesssion/ldxp-pi {desktop = i3 or comment out}
 7. i3-config-wizard
 8. sudo apt-get install lightdm
-9. sudo update-alternatives --config x-window-manager && sudo update-alternatives --config x-session-manager
+9. sudo update-alternatives --config x-window-manager && sudo update-alternatives --config x-session-manager (keep startlxd {dont change})
 10. startx
 
 ------
@@ -58,8 +58,6 @@ If a file named .xinitrc exists in the home directory, it will execute the comma
 /root/.config/i3/config is the real config for i3 _not_ /home/sy1/config/i3/config
 
 picom wasnt working so i ran >> picom --backend xrender
-
-
-sudo apt install cmake meson git pkg-config asciidoc libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev  libpcre2-dev  libevdev-dev uthash-dev libev-dev libx11-xcb-dev
-
+so i just change the the display for the trnaparnt to work so the two you need is i3 and startxld or what ever it said
+sudo update-alternaitves --config x-window-manager 
 
