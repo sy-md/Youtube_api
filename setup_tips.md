@@ -61,3 +61,8 @@ picom wasnt working so i ran >> picom --backend xrender
 so i just change the the display for the trnaparnt to work so the two you need is i3 and startxld or what ever it said
 sudo update-alternaitves --config x-window-manager 
 
+/etc - [X11 and xdg]
+/home - home and sy1 
+/root/.config - config files for i3 apps {e,g nitrogen autoed into this folder}
+
+
