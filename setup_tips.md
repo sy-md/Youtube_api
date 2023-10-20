@@ -3,7 +3,7 @@ https://www.makeuseof.com/things-to-do-after-installing-i3wm/ {about i3}
 
 # some of the tool is use for the ricing of my i3
    * sudo apt install nitrogen - exec always nitrogen --restore >> i3 config
-   * sudo apt install -y picom - exec picom >> i3 config
+   * sudo apt install -y picom - exec picom >> i3 config 
      
    * https://github.com/muesli/duf.git -  apt install duf
    * https://github.com/sharkdp/bat.git - sudo apt install bat
@@ -13,6 +13,7 @@ https://www.makeuseof.com/things-to-do-after-installing-i3wm/ {about i3}
    * https://github.com/vivien/i3blocks.git -- build
    * https://github.com/i3/i3status.git -- build
    * https://github.com/davatorium/rofi.git -- build
+   * https://github.com/yshui/picom.git -- build {once built mkdir /.config/picom && touch picom.conf then copy git clones conf into the new conf in .config}
 
    * https://github.com/cmus/cmus.git - build
    * https://github.com/WayneD/rsync.git - build
