@@ -54,3 +54,8 @@ startx -ll launch dorx server
 
 If a file named .xinitrc exists in the home directory, it will execute the commands listed there
 
+
+/root/.config/i3/config is the real config for i3 _not_ /home/sy1/config/i3/config
+
+picom wasnt working so i ran >> picom --backend xrender
+
