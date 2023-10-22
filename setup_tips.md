@@ -62,6 +62,8 @@ so i just change the the display for the trnaparnt to work so the two you need i
 sudo update-alternaitves --config x-window-manager 
 
 /etc - [X11 and xdg]
+
+https://wallhaven.cc/
 /home - home and sy1 
 /root/.config - config files for i3 apps {e,g nitrogen autoed into this folder}
 
