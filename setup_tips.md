@@ -67,4 +67,6 @@ https://wallhaven.cc/
 /home - home and sy1 
 /root/.config - config files for i3 apps {e,g nitrogen autoed into this folder}
 
+colors pallete https://coolors.co/
+
 
