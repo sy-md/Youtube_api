@@ -1,1 +1,0 @@
-yes | sudo pip install requests && yes | sudo pip install beautifulsoup4 && yes | sudo pip install lxml && yes | sudo pip install html5lib
