@@ -2,8 +2,8 @@ from googleapiclient.discovery import build
 import json
 import os
 import time
-import logging as lg 
-from pymongo import MongoClient
+import logging as lg
+#from pymongo import MongoClient
 from cleaning_data import clean_raw_data
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
@@ -16,12 +16,12 @@ psw = os.environ.get("PSW")
 api_service_name = "youtube"
 api_version = "v3"
 api_key = yt_key # put youtbe_api key here
-playlist = "PLUCV7KPLwz1FLrmI0JTIs1hOrSM8kvCaL"
+playlist = "PLq3UZa7STrbpGCddK4y9ZOlNzrElTGzVl"
 
 con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
-cli = MongoClient(con_str)
-mydb = cli["youtube"]
-collection = mydb["average_channels"]  # get/make a collection in the db
+#cli = MongoClient(con_str)
+#mydb = cli["youtube"]
+#collection = mydb["average_channels"]  # get/make a collection in the db
 
 lg.basicConfig()
 my_lg = lg.getLogger(__name__)
