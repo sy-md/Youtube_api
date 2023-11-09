@@ -14,10 +14,10 @@ def main():
         my_lg.info("sending user data to the database")
         update_db.get_vids()
         
+    ans = input("do you want donwload to a playlist to a location y/n")
+    if ans == "y":
+        get_raw_youtube_data.getplaylist()
     else:
-        ans = input("do you want donwload to a playlist to a location y/n")
-        if ans == "y":
-            get_raw_youtube_data.getplaylist()
         update_db.get_vids()
         
 if __name__ == "__main__":
