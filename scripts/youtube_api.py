@@ -11,14 +11,14 @@ load_dotenv(find_dotenv())
 file = "../data/data.json" # raw data
 
 yt_key = os.environ.get("API_KEY")
-psw = os.environ.get("PSW")
+#psw = os.environ.get("PSW")
 
 api_service_name = "youtube"
 api_version = "v3"
 api_key = yt_key # put youtbe_api key here
 playlist = "PLq3UZa7STrbpGCddK4y9ZOlNzrElTGzVl"
 
-con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
+#con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
 #cli = MongoClient(con_str)
 #mydb = cli["youtube"]
 #collection = mydb["average_channels"]  # get/make a collection in the db
@@ -49,7 +49,10 @@ class get_raw_youtube_data():
             playlistId=playlist,
         )
 
-        response = get_amt.execute()
+        #response = get_amt.execute()
+        print( get_amt.execute())
+        exit()
+
         new_amt = response["pageInfo"]["totalResults"]
         get_raw_youtube_data.amt = new_amt
         my_lg.info("{} videos left in Playlist".format(new_amt))
