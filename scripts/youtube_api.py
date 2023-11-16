@@ -16,6 +16,7 @@ yt_key = os.environ.get("API_KEY")
 api_service_name = "youtube"
 api_version = "v3"
 api_key = yt_key # put youtbe_api key here
+
 playlist = "PLq3UZa7STrbpGCddK4y9ZOlNzrElTGzVl"
 
 #con_str = (f"mongodb+srv://crazymartell:{psw}@cluster0.noggzpz.mongodb.net/youtube")
@@ -41,7 +42,6 @@ class get_raw_youtube_data():
     def getplaylist():
         my_lg.info("getting youtube data")
         my_youtube = get_raw_youtube_data.send_request() # helper function to get youtube api
-        
 
         get_amt = my_youtube.playlistItems().list(
             part="snippet,id",
@@ -49,9 +49,9 @@ class get_raw_youtube_data():
             playlistId=playlist,
         )
 
-        #response = get_amt.execute()
-        print( get_amt.execute())
-        exit()
+        response = get_amt.execute()
+        print( response)
+
 
         new_amt = response["pageInfo"]["totalResults"]
         get_raw_youtube_data.amt = new_amt
@@ -72,4 +72,7 @@ class get_raw_youtube_data():
             json.dump(response, send, indent=3)
         my_lg.info("Storing user data")
 
-        
+if __name__ == "__main__":
+    x = get_raw_youtube_data.send_request()
+    print(x)
+
